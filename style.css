@@ -1,0 +1,49 @@
+
+#field{
+    border: 3px grey solid;
+    border-radius: 5%;
+    width: 70vw;
+    height: 80vh;
+    justify-content: space-around;
+    padding-top: 10vh
+    
+}
+
+.cell {
+    border: 1px grey solid;
+    width: 15vw;
+    height: 15vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 1vh 1vw;
+    background: #f0f0f0;
+    
+}
+img {
+    max-width:90%;
+    max-height: 90%;
+    margin: auto;
+    object-fit:contain;
+}
+
+img#win{
+    max-width:50vw;
+    margin-top: 20vh;
+    display: block;
+}
+aside {
+    background: #f0f0f0;
+    padding: 1vw;
+    width: 20vw;
+    float: right;
+    border-radius: 5%;
+}
+#info, #settings{
+    border: 1px black solid;
+    margin: auto;
+    justify-content: space-around;
+    display: block;
+    padding: 1vw;
+    margin:1vh
+    
+}
